@@ -1,0 +1,17 @@
+<resources>
+	<string name="app_name">NanjingStoryApp</string>
+	<string name="tempText">Null Temp</string>
+	<string name="welcome_to_nanjing_platform">Welcome to Nanjing Platform</string>
+	<string name="welcome_message">This is a safe place where programmers can share their stories and ideas without hassle</string>
+	<string name="login">Login</string>
+	<string name="register">REGISTER</string>
+	<string name="author">Written by Mauamadou Drammeh</string>
+	<string name="welcome_message_register">Welcome to Nanjing \n Please take your time and become one of us</string>
+	<string name="user_email">User Email</string>
+	<string name="welcome_to_dicoding">Welcome to Nanjing!</string>
+	<string name="welcome_dicoding_description">Please take your time and listen to the stories and remarks of our users</string>
+	<string name="upload">Upload</string>
+	<string name="description">Description</string>
+	<string name="galeri">Gallery</string>
+	<string name="camera">Camera</string>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+	<ImageView
+			android:id="@+id/imageDetail"
+			android:layout_width="0dp"
+			android:layout_height="200dp"
+			android:layout_marginStart="32dp"
+			android:layout_marginTop="100dp"
+			android:layout_marginEnd="32dp"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintHorizontal_bias="0.0"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:src="@tools:sample/avatars" />
+
+	<TextView
+			android:id="@+id/postedBy"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textStyle="bold"
+			android:textSize="15dp"
+			android:layout_marginTop="16dp"
+			android:text="@string/tempText"
+			app:layout_constraintStart_toStartOf="@id/imageDetail"
+			app:layout_constraintTop_toBottomOf="@id/imageDetail" />
+
+	<TextView
+			android:id="@+id/userName"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="12dp"
+
+			android:text="@string/tempText"
+			app:layout_constraintStart_toEndOf="@id/postedBy"
+			app:layout_constraintTop_toTopOf="@id/postedBy" />
+
+	<TextView
+			android:id="@+id/description"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="12dp"
+			android:text="@string/tempText"
+			android:textStyle="bold"
+			app:layout_constraintStart_toStartOf="@id/postedBy"
+
+			app:layout_constraintTop_toBottomOf="@id/postedBy" />
+
+
+	<TextView
+			android:id="@+id/story_description"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="8dp"
+			android:text="@string/tempText"
+			app:layout_constraintStart_toEndOf="@id/description"
+			app:layout_constraintEnd_toEndOf="@id/imageDetail"
+			app:layout_constraintTop_toTopOf="@id/description" />
+
+	<androidx.constraintlayout.widget.Guideline
+			android:id="@+id/guidelineHorizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="64dp"
+			android:orientation="horizontal"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintGuide_percent="0.30191082"
+			app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
